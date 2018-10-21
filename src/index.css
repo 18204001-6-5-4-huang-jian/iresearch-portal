@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*黑色透明遮罩*/
+.ant-modal-mask {
+  z-index: 1035 !important;
+  }
+  /*Modal*/
+  .ant-modal-wrap {
+  z-index: 1040 !important;
+ }
+.ant-popover-placement-bottomLeft {
+  z-index: 1050 !important;
+}
+/*选择下拉 */
+.ant-select-dropdown {
+  z-index: 1100 !important;
+}

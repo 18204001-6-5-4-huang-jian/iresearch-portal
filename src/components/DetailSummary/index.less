@@ -1,0 +1,221 @@
+.detail-summary {
+  width: 100%;
+  height: 340px;
+  margin-top: 20px;
+  //左边内容
+  .iresearch-home-content-generalize {
+    width: 100%;
+    height: 340px;
+    float: left;
+    box-shadow: 1px 2px 3px 2px rgba(238,238,238,1) ;
+    .title {
+      display: inline-block;
+      height: 28px;
+      line-height: 28px;
+      margin: 10px 0 0 15px;
+      color: #333333;
+      font-size: 20px;
+    }
+    .time {
+      height: 20px;
+      line-height: 20px;
+      text-align: right;
+      margin-right: 10px;
+      color: #727883;
+      font-size: 14px;
+    }
+    .dollar {
+      height: 41px;
+      line-height: 30px;
+      margin-left: 15px;
+      margin-bottom: 5px;
+      span {
+        &:first-child {
+          display: inline-block;
+          width: 124px;
+          font-size: 34px;
+          font-family: PingFangSC-Semibold;
+          color: rgba(220, 40, 65, 1);
+        }
+        &:nth-child(2) {
+          display: inline-block;
+          width: 101px;
+          height: 20px;
+          font-size: 14px;
+          font-family: PingFangSC-Semibold;
+          color: rgba(220, 40, 65, 1);
+          line-height: 20px;
+        }
+      }
+    }
+    .transaction {
+      height: 22px;
+      margin-left: 15px;
+      margin-bottom: 5px;
+      span {
+        &:first-child {
+          display: inline-block;
+          height: 22px;
+          font-size: 16px;
+          font-family: PingFangSC-Regular;
+          color: rgba(158, 158, 158, 1);
+          line-height: 22px;
+          padding: 0 5px;
+        }
+        &:nth-child(2) {
+          display: inline-block;
+          margin-left: 15px;
+          margin-bottom: 0;
+          width: 148px;
+          height: 20px;
+          font-size: 14px;
+          font-family: PingFangSC-Semibold;
+          color: rgba(220, 40, 65, 1);
+          line-height: 20px;
+        }
+      }
+    }
+    .revenue {
+      height: 28px;
+      margin-left: 15px;
+      margin-bottom: 5px;
+      span {
+        &:first-child {
+          display: block;
+          float: left;
+          height: 28px;
+          line-height: 28px;
+          font-size: 16px;
+          font-family: PingFangSC-Regular;
+          color: rgba(51, 51, 51, 1);
+        }
+        &:nth-child(2) {
+          display: inline-block;
+          float: left;
+          margin-left: 10px;
+          height: 28px;
+          line-height: 28px;
+          font-size: 20px;
+          font-family: PingFangSC-Medium;
+          color: rgba(45, 150, 60, 1);
+        }
+      }
+    }
+    .table {
+      width: 95%;
+      margin-left: 15px;
+      tr {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        td {
+          width: 25%;
+          span {
+            width: 85px;
+            height: 20px;
+            font-size: 14px;
+            font-family: PingFangSC-Regular;
+            color: rgba(51, 51, 51, 1);
+            line-height: 20px;
+            &:nth-child(2) {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //右边内容
+  .iresearch-home-content-information {
+    width: 100%;
+    height: 340px;
+    border: 1px solid #f0f0f0;
+    //头部
+    .iresearch-home-content-infoTitle {
+      width: 100%;
+      height: 30px;
+      margin-top: 9px;
+      .infoTitle-blueLine {
+        width: 4px;
+        height: 18px;
+        margin-top: 6px;
+        background: rgba(41, 129, 245, 1);
+        float: left;
+      }
+      .infoTitle-profession-ask {
+        height: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 30px;
+        float: left;
+        padding:0 5px;
+      }
+      .infoTitle-logo {
+        width: 70px;
+        height: 20px;
+        float: left;
+        margin-top: 5px;
+        background-image: url(../../images/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 63px 20px;
+        background-position: center center;
+      }
+      .infoTitle-more {
+        font-size: 14px;
+        color: rgba(32, 122, 223, 1);
+        line-height: 30px;
+        float: right;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    }
+    // 列表信息样式
+    .iresearch-home-content-infoList {
+      width: 100%;
+      padding: 0 18px;
+      .content-infoList-item {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        .infoList-itemIcon {
+          text-align: left;
+          i {
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+            font-size: 20px;
+            color: #83c6ef;
+            float: left;
+          }
+          .infoList-itemName {
+            height: 40px;
+            float: left;
+            padding-left: 5px;
+            .infoList-name {
+              font-size: 14px;
+              color: rgba(51, 51, 51, 1);
+              line-height: 40px;
+              height: 20px;
+            }
+            .itemName-icon {
+              height: 15px;
+              font-size: 16px;
+              color: #fb9700;
+              line-height: 6px;
+            }
+          }
+        }
+        .infoList-itemfield,.infoList-itemrole {
+          font-size: 12px;
+          height: 40px;
+          color: #6f6f6f;
+          line-height: 46px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
